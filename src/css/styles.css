@@ -13,10 +13,10 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./order.css');
+@import url('./how_it_works.css');
 @import url('./mob_tab-menu.css');
-@import url('./discount.css');
-@import url('./organic_vegetables.css');
+@import url('./advertisement.css');
+@import url('./vegetables.css');
 @import url('./reviews.css');
-@import url('./fresh_harvest_box.css');
+@import url('./your_order.css');
 @import url('./footer.css');
