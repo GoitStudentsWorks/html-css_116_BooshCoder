@@ -15,17 +15,6 @@
     overflow: hidden;
 }
 
-.discount-text {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.08333;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #fbfbfb;
-    background-color: #576f35;
-    border-radius: 12px;
-    max-width: 100%;
-}
 
 .promo-text {
     font-weight: 600;
@@ -37,6 +26,15 @@
     max-width: 100%;
 }
 
+
+.discount-text {
+    display: block;
+    color: #fbfbfb;
+    background-color: #576f35;
+    border-radius: 12px;
+}
+
+
 /* -------------------Tablet------------------- */
 
 @media only screen and (min-width: 768px) {
@@ -45,7 +43,6 @@
     }
 
     .discount-text {
-        font-size: 64px;
         padding: 15px 7px 0 0;
         max-width: 675px;
     }
@@ -57,14 +54,17 @@
 
 
 /* -------------------Desktop------------------- */
-/* @media only screen and (min-width: 1280px) {
+
+@media only screen and (min-width: 1280px) {
     .discount-text {
-        font-size: 76px;
-        padding: 0 0 0 10px;
-        max-width: 1054px;
+        display: inline;
+        padding: 0 0 0 17px;
+        margin-left: -17px;
+        max-width: 808px;
     }
 
     .promo-text {
         font-size: 76px;
+        max-width: 1054px;
     }
-} */
+}
