@@ -25,7 +25,7 @@
 .reviews-item {
   border: 1px solid #d4bfc4;
   border-radius: 24px;
-  padding: 18px;
+  padding: 20px 16.5px;
 }
 .reviews-item-second,
 .reviews-item-third {
@@ -39,6 +39,9 @@
 .reviews-img {
   border-radius: 50%;
   object-fit: cover;
+}
+.div-reviews-text {
+  padding: 0 7px;
 }
 .reviews-subtitle {
   font-weight: 600;
@@ -80,6 +83,7 @@
     max-width: 704px;
   }
   .reviews-item {
+    padding: 20px 19px;
     width: calc((100% - 24px) / 2);
   }
   .reviews-item-second {
@@ -106,6 +110,8 @@
   }
   .reviews-item-third {
     display: block;
-    /* padding: 0 8px; */
+  }
+  .reviews-p {
+    max-width: 287px;
   }
 }
