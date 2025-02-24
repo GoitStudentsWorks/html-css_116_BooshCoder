@@ -80,7 +80,7 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
-.container {
+.hero-container {
     padding: 0 0 0 100px;
     margin: 0;
  }
@@ -111,7 +111,7 @@
  }
 
  .hero-image {
-    width: 50%;
+    max-width: 50%;
     height: 796px;
     background-image: url(../img/hero/hero_desktop.jpg);
  }
