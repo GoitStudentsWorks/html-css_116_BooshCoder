@@ -82,6 +82,7 @@
 @media screen and (min-width: 1280px) {
 .container {
     padding: 0 0 0 100px;
+    margin: 0;
  }
 
  .hero {
@@ -91,15 +92,14 @@
  }
 
  .hero-text {
-    max-width: 50%;
-    padding: 232px 38px 52px 0; 
+    max-width: 502px;
+    padding: 232px 0 52px 0; 
     
  }
 
  .hero-title {
     font-size: 76px;
     margin-bottom: 128px;
-    max-width: 502px;
  }
 
  .hero-deskr {
