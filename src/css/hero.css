@@ -92,7 +92,7 @@
  }
 
  .hero-text {
-    max-width: 502px;
+    max-width: 50%;
     padding: 232px 0 52px 0; 
     
  }
@@ -100,6 +100,7 @@
  .hero-title {
     font-size: 76px;
     margin-bottom: 128px;
+    max-width: 502px;
  }
 
  .hero-deskr {
