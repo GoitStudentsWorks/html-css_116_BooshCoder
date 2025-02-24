@@ -1,6 +1,4 @@
 /* MOBILE */
-
-
 .hero {
     background-color: #576f35;
     display: flex;
@@ -80,20 +78,27 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
-.hero-container {
+ .hero-section {
+    background-color: #576f35;
+    width: 100%;
+ }
+
+ .hero-container {
     padding: 0 0 0 100px;
-    margin: 0;
+    margin: 0 auto;
  }
 
  .hero {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
  }
 
  .hero-text {
     max-width: 50%;
-    padding: 232px 0 52px 0; 
+    padding: 232px 36px 52px 0; 
     
  }
 
