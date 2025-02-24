@@ -30,10 +30,6 @@
   }
   
   @media screen and (min-width: 1280px) {
-    .header {
-      top: 32px;
-    }
-  
     .nav {
       display: flex;
       align-items: center;
