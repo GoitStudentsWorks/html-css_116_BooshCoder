@@ -1,6 +1,8 @@
 .basement {
   background-color: #7a3145;
   padding: 40px 0;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .footer-container {
@@ -9,13 +11,13 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  max-width: 375px;
-  margin: 0 auto;
+  min-height: 100%;
 }
 
 .basement-logo {
   display: flex;
   flex-direction: column;
+  gap: 14px;
 }
 
 .footer-logo-icons {
@@ -28,9 +30,9 @@
   font-size: 14px;
   line-height: 1.43;
   color: #fbfbfb;
-  width: 335px;
   margin-bottom: 40px;
 }
+
 .footer-case {
   display: flex;
   flex-direction: column;
@@ -52,15 +54,11 @@
   margin-bottom: 40px;
 }
 
-.social-link-footer:hover,
-.social-link-footer:focus {
-  background-color: #31d0aa;
-}
 .footer-text-link {
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 100% */
+  line-height: 32px;
   letter-spacing: -0.48px;
   text-transform: uppercase;
   color: #fbfbfb;
@@ -69,8 +67,9 @@
 .footer-contacts {
   display: flex;
   flex-direction: column;
-  column-gap: 14px;
+  gap: 14px;
   margin-bottom: 80px;
+  align-items: flex-start;
 }
 
 .contacts-text {
@@ -85,13 +84,11 @@
   flex-direction: column;
   gap: 14px;
 }
-.address-text {
-  width: 179px;
-}
 
 .footer-policy {
   display: flex;
-  margin-bottom: 16px;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .policy-text {
@@ -103,8 +100,7 @@
 }
 
 .policy-span {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 0 8px;
 }
 
 .text-desc {
@@ -115,9 +111,74 @@
   line-height: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .basement {
+    height: 100%;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .basement-logo {
+    flex-direction: row;
+  }
+
+  .basement-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 212px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .social-list {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-policy {
+    flex-direction: row;
+    position: absolute;
+    transform: translateY(50%);
+    bottom: 5%;
+  }
+
+  .text-span {
+    display: flex;
+    gap: 49px;
+    justify-content: space-between;
+  }
+
+  .policy-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1158px) {
   .policy-span {
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    gap: 120px;
+  }
+  .basement-content {
+    margin-right: 250px;
+    width: 265px;
+  }
+  .social-list-footer {
+    min-width: 227px;
   }
 }
