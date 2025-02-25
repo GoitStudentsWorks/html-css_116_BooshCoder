@@ -112,10 +112,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .basement {
-    height: 100%;
-  }
-
   .footer-container {
     flex-direction: row;
     justify-content: space-between;
@@ -180,5 +176,6 @@
   }
   .social-list-footer {
     min-width: 227px;
+    margin-bottom: 0;
   }
 }
