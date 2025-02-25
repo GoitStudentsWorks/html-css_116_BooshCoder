@@ -85,12 +85,10 @@
 }
 .overlay {
   display: none;
-  /* інші стилі для overlay */
 }
 
 .overlay.is-open {
   display: block;
-  /* інші стилі для відкритого стану */
 }
 
 @media screen and (min-width: 768px) {
