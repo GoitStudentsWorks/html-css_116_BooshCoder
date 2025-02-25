@@ -124,13 +124,18 @@
   .basement-content {
     display: flex;
     flex-direction: column;
-    margin-right: 212px;
+    margin-right: 180px;
   }
 
   .footer-content {
     display: flex;
     flex-direction: column;
     position: relative;
+  }
+
+  .social-list-footer {
+    min-width: 227px;
+    margin-bottom: 0;
   }
 
   .social-list {
@@ -144,7 +149,7 @@
     flex-direction: row;
     position: absolute;
     transform: translateY(50%);
-    bottom: 5%;
+    bottom: 10%;
   }
 
   .text-span {
@@ -168,14 +173,18 @@
 
   .footer-content {
     flex-direction: row;
-    gap: 120px;
+    gap: 130px;
   }
   .basement-content {
-    margin-right: 250px;
+    margin-right: 120px;
     width: 265px;
   }
   .social-list-footer {
     min-width: 227px;
     margin-bottom: 0;
+  }
+  .footer-contacts {
+    margin-bottom: 0;
+    min-width: 216px;
   }
 }
