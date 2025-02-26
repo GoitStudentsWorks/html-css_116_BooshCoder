@@ -101,4 +101,8 @@
   height: 52px;
   background: #7a3145;
   margin-left: 20px;
+  text-align: center;
+}
+.nav-shop-btn:active {
+  animation: buttonActive 0.1s forwards;
 }
