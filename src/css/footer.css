@@ -1,0 +1,184 @@
+
+/* Основні стилі футера */
+.basement {
+  background-color: #7a3145;
+  padding: 40px 0px;
+  color: #fbfbfb;
+}
+
+/* футер (мобільна версія) */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Логотип */
+.footer-logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-icons {
+  margin-bottom: 16px;
+}
+
+/* Опис */
+.footer-text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.footer-item {
+  margin-bottom: 14px;
+}
+
+.footer-item:last-child {
+  margin-bottom: 0;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu-list {
+  margin-bottom: 40px;
+}
+
+.footer-anchor {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+/* Контакти */
+
+.footer-phone {
+  font-weight: bold;
+  color: #fbfbfb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 14px;
+}
+.footer-address {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Політика та авторське право */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  font-size: 14px;
+  color: #d4bfc4;
+}
+.policy-text {
+  color: #d4bfc4;
+}
+
+/* СТИЛІ ДЛЯ ПЛАНШЕТНОЇ ВЕРСІЇ (768px+) */
+@media screen and (min-width: 768px) {
+  .basement {
+    padding: 32px 0px;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 212px;
+  }
+
+  .footer-info {
+    max-width: 250px;
+  }
+
+  .footer-icons {
+    margin-bottom: 24px;
+    width: 186px;
+    height: 17px;
+  }
+  .footer-item {
+    margin-bottom: 24px;
+  }
+
+  .footer-item:last-child {
+    margin-bottom: 0;
+  }
+  .menu-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 100px;
+  }
+
+  .footer-menu {
+    text-align: center;
+    margin-bottom: 44px;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-address {
+    text-align: left;
+  }
+
+  /* Політика та авторське право */
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+}
+
+/* СТИЛІ ДЛЯ ДЕСКТОПНОЇ ВЕРСІЇ (1280px+) */
+@media screen and (min-width: 1280px) {
+  .footer-text {
+    max-width: 265px;
+  }
+
+  .footer-info {
+    max-width: 400px;
+  }
+
+  .menu-contacts {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 121px;
+    margin-bottom: 124px;
+  }
+  .footer-phone {
+    text-align: center;
+  }
+  .footer-menu {
+    text-align: right;
+    margin: 0;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  .footer-contacts {
+    text-align: right;
+  }
+
+  /* Політика та копірайт у рядок */
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,105 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: none;
+}
+.btn-menu {
+  margin-left: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 32px;
+  min-width: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    top: 32px;
+  }
+
+  .icon-logo {
+    width: 216px;
+    height: 20px;
+  }
+
+  .nav {
+    display: none;
+  }
+  .btn-menu {
+    height: 40px;
+    min-width: 40px;
+  }
+
+  .icon-menu {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .btn-menu {
+    display: none;
+  }
+}
+
+.nav-list {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #fbfbfb;
+  line-height: 1.25;
+  font-weight: 500;
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 118px;
+}
+
+.nav-link:hover,
+.nav-shop-btn:hover,
+.nav-shop-btn:focus,
+.nav-shop-btn:focus {
+  background-color: #d4bfc4;
+  color: #7a3145;
+  border-color: transparent;
+}
+
+.nav-link:active,
+.nav-shop-btn:active {
+  background-color: #fbfbfb;
+  color: #7a3145;
+  border-color: transparent;
+}
+
+.nav-shop-btn {
+  color: #fbfbfb;
+  border-radius: 30px;
+  padding: 16px 32px;
+  min-width: 157px;
+  height: 52px;
+  background: #7a3145;
+  margin-left: 20px;
+  text-align: center;
+}
+.nav-shop-btn:active {
+  animation: buttonActive 0.1s forwards;
+}
