@@ -19,9 +19,11 @@
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }
+
 .card:hover {
-  transform: scale(1.05);
+  animation: cardHover 0.3s ease-in-out forwards;
 }
+
 .icon {
   fill: #fbfbfb;
   margin-bottom: 20px;

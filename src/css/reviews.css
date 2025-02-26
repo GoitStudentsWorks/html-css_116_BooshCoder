@@ -39,6 +39,11 @@
 .reviews-img {
   border-radius: 50%;
   object-fit: cover;
+  transition: none;
+}
+
+.reviews-img:hover {
+  animation: reviewsImageHover 0.4s ease forwards;
 }
 .div-reviews-text {
   padding: 0 7px;
