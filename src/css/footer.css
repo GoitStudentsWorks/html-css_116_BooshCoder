@@ -1,7 +1,7 @@
 /* Основні стилі футера */
 .basement {
   background-color: #7a3145;
-  padding: 40px 32px;
+  padding: 40px 0px;
   color: #fbfbfb;
 }
 
@@ -9,14 +9,13 @@
 .footer-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 14px;
 }
 
 /* Логотип */
 .footer-logo {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 10px;
 }
 
 .footer-icons {
@@ -33,13 +32,9 @@
 .footer-menu {
   margin-top: 10px;
 }
-.menu-list {
-  list-style: none;
-  padding: 0;
-}
 
 .footer-item {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .link-footer {
@@ -80,7 +75,59 @@
   font-size: 14px;
   color: #d4bfc4;
 }
-.policy-text a {
+.policy-text {
   color: #d4bfc4;
-  text-decoration: none;
+}
+
+/* СТИЛІ ДЛЯ ПЛАНШЕТНОЇ ВЕРСІЇ (768px+) */
+@media screen and (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 212px;
+  }
+
+  .footer-info {
+    max-width: 250px;
+  }
+
+  .footer-icons {
+    margin-bottom: 24px;
+    width: 186px;
+    height: 17px;
+  }
+
+  .menu-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 60px;
+  }
+
+  .footer-menu {
+    text-align: center;
+    margin-bottom: 44px;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-contacts {
+    text-align: right;
+  }
+
+  .footer-address {
+    text-align: left;
+  }
+
+  /* Політика та копірайт у рядок */
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
 }
