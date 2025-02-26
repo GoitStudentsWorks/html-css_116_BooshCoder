@@ -26,6 +26,7 @@
 .footer-text {
   font-size: 14px;
   line-height: 1.4;
+  max-width: ;
 }
 
 /* Меню */
@@ -141,6 +142,10 @@
     gap: 121px;
   }
 
+  .footer-text {
+    max-width: 265px;
+  }
+
   .footer-info {
     max-width: 400px;
   }
@@ -154,6 +159,7 @@
 
   .footer-menu {
     text-align: right;
+    margin-top: 0;
   }
 
   .menu-list {
