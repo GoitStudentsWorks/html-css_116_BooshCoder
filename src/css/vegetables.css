@@ -65,25 +65,7 @@
     line-height: 1.43;
     margin-bottom: 12px;
 }
-.vegetables-image {
-    opacity: 1;
-    transform: scale(1);
-    transition: transform 0.4s ease-in-out;
-}
 
-.vegetables-image:hover {
-    transform: scale(1.15) rotate(3deg);
-}
-
-.vegetables-desc {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.vegetables-wrapper:hover .vegetables-desc {
-    animation: textAppear 0.6s ease-out forwards;
-}
 @media only screen and (min-width: 768px) {
     .vegetables-wrap {
         max-width: 626px;
@@ -129,6 +111,16 @@
         max-width: calc((100% - 48px) / 3);
         padding: 32px;
     }
+
+    .vegetables-image {
+        opacity: 1;
+        transform: scale(1);
+        transition: transform 0.4s ease-in-out;
+        }
+    
+    .vegetables-image:hover {
+        transform: scale(1.15) rotate(3deg);
+        }
 
     .vegetables-desc {
         margin-bottom: 8px;
