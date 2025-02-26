@@ -19,7 +19,7 @@
 
         <form class="form">
           <div class="input-wrapper">
-            <label for="user-name" class="order-label"></label>
+            <label for="user-name" class="order-label">
 
             <input
               type="text"
@@ -29,10 +29,11 @@
               placeholder="Full Name"
               required
             />
+            </label>
           </div>
 
           <div class="input-wrapper">
-            <label for="user-email" class="order-label"></label>
+            <label for="user-email" class="order-label">
 
             <input
               type="email"
@@ -43,16 +44,18 @@
               required
               pattern="([A-Za-z0-9_.-]+)@([A-Za-z0-9_.-]+)\.([A-Za-z]{2,8})"
             />
+            
           </div>
 
           <div class="textarea">
-            <label for="user-comment" class="order-label"></label>
+            <label for="user-comment" class="order-label">
             <textarea
               name="user-comment"
               id="user-comment"
               class="order-textarea"
               placeholder="Comment"
             ></textarea>
+            </label>
           </div>
 
           <button type="submit" class="submit-btn">Send</button>
