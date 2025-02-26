@@ -13,6 +13,7 @@
 .nav {
   display: none;
 }
+
 .btn-menu {
   margin-left: auto;
   padding: 0;
@@ -36,6 +37,7 @@
   .nav {
     display: none;
   }
+
   .btn-menu {
     height: 40px;
     min-width: 40px;
@@ -53,6 +55,7 @@
     align-items: center;
     margin-left: auto;
   }
+
   .btn-menu {
     display: none;
   }
@@ -76,7 +79,7 @@
 
 .nav-link:hover,
 .nav-shop-btn:hover,
-.nav-shop-btn:focus,
+.nav-link:focus,
 .nav-shop-btn:focus {
   background-color: #d4bfc4;
   color: #7a3145;
