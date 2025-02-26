@@ -14,8 +14,9 @@
 
 .hero-text {
   min-width: 100%;
-  padding: 100px 0 40px;
-  margin-left: 0;
+  padding: 100px 0 0;
+  margin-bottom: 40px;
+  
 }
 
 .hero-title {
@@ -63,7 +64,8 @@
  }   
 
   .hero-text {
-    padding: 120px 0 52px;
+    padding-top: 120px;
+    margin-bottom: 52px;
   }
 
   .hero-title {
@@ -87,7 +89,9 @@
 @media screen and (min-width: 1280px) {
   .hero-container {
     padding: 0 0 0 100px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-right: 36px;
+
   }
 
   .hero {
@@ -99,7 +103,7 @@
 
   .hero-text {
     max-width: 50%;
-    padding: 232px 36px 52px 0;
+    padding-top: 232px;
   }
 
   .hero-title {
