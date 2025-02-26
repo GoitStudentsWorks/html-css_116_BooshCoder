@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.hero-container {
+margin-bottom: 40px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -15,7 +19,6 @@
 .hero-text {
   min-width: 100%;
   padding: 100px 0 0;
-  margin-bottom: 40px;
   
 }
 
@@ -59,13 +62,16 @@
 
 /* TABLET */
 @media (min-width: 768px) {
+  .hero-container {
+    margin-bottom: 52px;
+  }
+
   .hero {
     max-width: 768px;
  }   
 
   .hero-text {
     padding-top: 120px;
-    margin-bottom: 52px;
   }
 
   .hero-title {
@@ -87,11 +93,12 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
-  .hero-container {
+  .hero .container {
     padding: 0 0 0 100px;
-    /* margin: 0 auto; */
-    margin-right: 36px;
+  }
 
+  .hero-container {
+    margin: 0 36px 0 0;
   }
 
   .hero {
@@ -104,6 +111,7 @@
   .hero-text {
     max-width: 50%;
     padding-top: 232px;
+    padding-bottom: 52px;
   }
 
   .hero-title {
