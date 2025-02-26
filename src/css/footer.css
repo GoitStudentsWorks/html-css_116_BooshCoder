@@ -9,7 +9,7 @@
 .footer-content {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 40px;
 }
 
 /* Логотип */
@@ -19,7 +19,7 @@
 }
 
 .footer-icons {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 /* Опис */
@@ -28,13 +28,12 @@
   line-height: 1.4;
 }
 
-/* Меню */
-.footer-menu {
-  margin-top: 10px;
-}
-
 .footer-item {
   margin-bottom: 14px;
+}
+
+.footer-item:last-child {
+  margin-bottom: 0;
 }
 
 .link-footer {
@@ -42,6 +41,9 @@
   color: #fbfbfb;
   font-weight: 600;
   font-size: 16px;
+}
+.menu-list {
+  margin-bottom: 40px;
 }
 
 .footer-anchor {
@@ -63,7 +65,7 @@
   margin-bottom: 14px;
 }
 .footer-address {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -81,6 +83,9 @@
 
 /* СТИЛІ ДЛЯ ПЛАНШЕТНОЇ ВЕРСІЇ (768px+) */
 @media screen and (min-width: 768px) {
+  .basement {
+    padding: 32px 0px;
+  }
   .footer-content {
     flex-direction: row;
     justify-content: space-between;
@@ -97,12 +102,18 @@
     width: 186px;
     height: 17px;
   }
+  .footer-item {
+    margin-bottom: 24px;
+  }
 
+  .footer-item:last-child {
+    margin-bottom: 0;
+  }
   .menu-contacts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
   }
 
   .footer-menu {
@@ -116,10 +127,6 @@
     align-items: flex-start;
   }
 
-  .footer-contacts {
-    text-align: right;
-  }
-
   .footer-address {
     text-align: left;
   }
@@ -128,19 +135,12 @@
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 0;
   }
 }
 
 /* СТИЛІ ДЛЯ ДЕСКТОПНОЇ ВЕРСІЇ (1280px+) */
 @media screen and (min-width: 1280px) {
-  .footer-content {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 121px;
-  }
-
   .footer-text {
     max-width: 265px;
   }
@@ -153,18 +153,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 100px;
+    gap: 121px;
+    margin-bottom: 124px;
   }
-
+  .footer-phone {
+    text-align: center;
+  }
   .footer-menu {
     text-align: right;
-    margin-top: 0;
+    margin: 0;
   }
 
   .menu-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .footer-contacts {
@@ -175,6 +179,5 @@
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 124px;
   }
 }
