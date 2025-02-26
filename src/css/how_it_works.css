@@ -144,6 +144,7 @@
     max-width: 768px;
   }
   .container-works-list {
+    align-items: center;
     padding: 100px 164px;
     gap: 52px;
     max-width: 768px;
