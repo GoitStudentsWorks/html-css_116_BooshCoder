@@ -124,10 +124,52 @@
     text-align: left;
   }
 
-  /* Політика та копірайт у рядок */
+  /* Політика та авторське право */
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 40px;
+  }
+}
+
+/* СТИЛІ ДЛЯ ДЕСКТОПНОЇ ВЕРСІЇ (1280px+) */
+@media screen and (min-width: 1280px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 121px;
+  }
+
+  .footer-info {
+    max-width: 400px;
+  }
+
+  .menu-contacts {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+  }
+
+  .footer-menu {
+    text-align: right;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-contacts {
+    text-align: right;
+  }
+
+  /* Політика та копірайт у рядок */
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 124px;
   }
 }
