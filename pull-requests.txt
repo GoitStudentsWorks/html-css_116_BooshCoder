@@ -20,7 +20,7 @@ https://github.com/BooshCoder/Green-Harvest-team13/pull/11 - Mарина
 
 https://github.com/BooshCoder/Green-Harvest-team13/pull/9 - Віта
 
-https://github.com/BooshCoder/Green-Harvest-team13/pulls?q=is%3Apr+is%3Aclosed
+https://github.com/BooshCoder/Green-Harvest-team13/pulls?
 https://github.com/BooshCoder/Green-Harvest-team13/pull/4 
 https://github.com/BooshCoder/Green-Harvest-team13/pull/2- Ростіслав
 
